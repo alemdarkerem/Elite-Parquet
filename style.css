@@ -57,7 +57,7 @@ body {
 
 /* dropdown button */
 .dropbtn {
-    background-color: white;
+    background-color: #966F33;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -106,7 +106,7 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown. */
 .dropdown:hover .dropbtn {
-    background-color: #7E8584;
+    background-color: #6F4609;
 }
 
 
@@ -225,11 +225,11 @@ span {
 }
 .lamine-img {
     border: solid black;
-    border-radius: 60px;
+    border-radius: 50px;
     min-width: auto;
     min-height: auto;
     max-width: 50%;
-    max-height: 500%;
+    max-height: 50%;
     position: absolute;
     display: inline-block;
     top: 8%;
