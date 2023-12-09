@@ -329,6 +329,11 @@ span {
     /* left: 3%; */
     float: right;
 }
+.google-maps {
+    display: block;
+    position: relative;
+    width: 100%;
+}
 
 @media (max-width: 680px) {
     .logo{
