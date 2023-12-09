@@ -26,13 +26,14 @@
   position: absolute;
   display: block;
   font-weight: lighter;
-  width: 90%;
+  width: 50%;
   top: 18%;
   left: 63%;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   text-align: center;
+  /* overflow: hidden; */
 }
 #font {
     font-family: "Baskerville";
