@@ -27,7 +27,7 @@
   display: block;
   font-weight: lighter;
   width: 50%;
-  top: 18%;
+  top: 15%;
   left: 63%;
   transform: translate(-50%, -50%);
   margin: 0;
@@ -328,8 +328,8 @@ span {
     }
     .ankara-logo {
         font-size: 14px;
-        left: 71%;
-        top: 20%;
+        left: 73%;
+        top: 14%;
     }
     .lamine-header {
         font-size: 1rem;
