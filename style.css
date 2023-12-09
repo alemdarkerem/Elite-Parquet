@@ -236,6 +236,12 @@ span {
     padding-left: 15%;
     padding-bottom: 30px ;
 }
+.google-maps-logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+}
 .insta-logo {
     width: 30px;
     height: 30px;
@@ -396,9 +402,26 @@ span {
     }
     .telephone-header{
         padding-top: 60px;
+        padding-left: 8%;
+    }
+    .numara{
+        padding-left: 10%;
+    }
+    .email-header {
+        padding-left: 8%;
+    }
+    .email {
+        padding-left: 10%;
+    }
+    .adress-header{
+        padding-left: 8%;
     }
     .adress{
         padding-right: 10px;
+        padding-left: 10%;
+    }
+    .social-header {
+        padding-left: 8%;
     }
 
 }
