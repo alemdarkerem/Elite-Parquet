@@ -409,6 +409,7 @@ span {
 .arayın-button {
     height: 50px;
     font-size: 22px;
+    text-decoration: none;
     width: 200px;
     border: 2px solid black;
     border-radius: 10%;
