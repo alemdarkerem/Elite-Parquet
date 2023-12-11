@@ -41,7 +41,7 @@
 .contact-text {
     color: black;
     font-family: "Baskerville";
-    font-size: 3vw;
+    font-size: 2rem;
     position: absolute;
     display: block;
     top: 50%;
@@ -90,7 +90,6 @@ body {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
-
     z-index: -1;
 }
 .menuicon {
@@ -161,7 +160,7 @@ body {
 }
 .contact-header {
     font-family: Baskerville;
-    font-size: 6rem;
+    font-size: 2rem;
     position: relative;
     padding-top: 100px;
     display: block;
@@ -528,8 +527,11 @@ span {
         height: 750px;
     }
     .contact-header {
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding-top: 20px;
+    }
+    .contact-text {
+        font-size: 2rem;
     }
     .telephone-header{
         padding-top: 60px;
@@ -622,7 +624,10 @@ span {
         height: 250px;
     }
     .contact-header {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+    .contact-text {
+        font-size: 1rem;
     }
     .telephone-header { 
         font-size: 1rem;
