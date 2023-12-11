@@ -100,7 +100,7 @@ body {
 
 /* dropdown button */
 .dropbtn {
-    background-color: #966F33;
+    background-color: #5f564d;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -149,7 +149,7 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown. */
 .dropdown:hover .dropbtn {
-    background-color: #6F4609;
+    background-color: #443d37;
 }
 
 
@@ -372,15 +372,16 @@ span {
 }
 
 .iletisim {
-    background-color: #33210f;
+    background: url(./assets/images/footerbg.jpg);
     display: inline-block;
     position: relative;
     margin: 0;
     padding: 20px 20px;
     width: 100%;
+    border-bottom: 1px solid #5f564d;
 }
 .footer-box {
-    background-color: #201606;
+    background-color: #464037;
     margin: 0;
     padding: 0;
     height: 30px;
@@ -408,13 +409,32 @@ span {
 }
 .arayın-button {
     height: 50px;
+    font-size: 22px;
     width: 200px;
-    border: solid black;
+    border: 2px solid black;
     border-radius: 10%;
 }
 .arayın-button:hover {
     background-color: #0c0702;
     color: white;
+}
+.adress-footer {
+    /* background-color: #5f564d; */
+    background: url(./assets/images/footerbg.jpg);
+    display: inline;
+    float: right;
+    position: relative;
+    margin: 0;
+    padding: 20px 20px;
+    width: 100%;
+}
+.showroom-p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.text-decoration {
+    text-decoration: none;
 }
 
 
@@ -551,13 +571,21 @@ span {
         font-size: 1rem;
     }
     .showroom-p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .arayın-button {
-        height: 30px;
+        height: 25px;
         width: 100px;
     }
-
+    .iletisim {
+        padding: 10px 10px;
+    }
+    .adress-footer {
+        padding: 10px 10px;
+    }
+    .arayın-button {
+        font-size: 12px;
+    }
 }
 
 
@@ -622,5 +650,11 @@ span {
     }
     .tarihce-paragraf {
         font-size: 12px;
+    }
+    .footer-text {
+        font-size: 8px;
+    }
+    .arayın-button {
+        font-size: 10px;
     }
 }
