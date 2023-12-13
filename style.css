@@ -22,13 +22,14 @@
 .ankara-logo {
   color: black;
   font-family: "Baskerville";
-  font-size: 24px;
+  font-size: 2rem;
   position: absolute;
   display: block;
   font-weight: lighter;
-  width: 50%;
+  width: 100%;
   top: 17%;
-  left: 66%;
+  left: 50%;
+  overflow: hidden;
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
@@ -81,7 +82,7 @@ body {
     display: inline-block; 
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100vh;
     object-fit: cover;
     z-index: -1;
 }
@@ -417,9 +418,8 @@ span {
         font-size: 2rem;
     }
     .ankara-logo {
-        font-size: 14px;
-        left: 66%;
-        top: 19%;
+        font-size: 1rem;
+        top: 14%;
     }
     .lamine-header {
         font-size: 1rem;
@@ -612,9 +612,8 @@ span {
         font-size: 1rem;
     }
     .ankara-logo {
-        font-size: 8px;
-        left: 66%;
-        top: 20%;
+        font-size: 0.5rem;
+        top: 12%;
     }
     .lamine-header {
         font-size: 10px;
