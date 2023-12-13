@@ -386,6 +386,7 @@ span {
     width: 200px;
     border: 2px solid black;
     border-radius: 10%;
+    color: black;
 }
 .arayın-button:hover {
     background-color: #0c0702;
