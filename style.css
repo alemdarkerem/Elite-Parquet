@@ -282,7 +282,7 @@ span {
     max-height: 600px;
     position: relative;
     display: inline;
-    margin-top: 20px;
+    margin: 20px 60px 20px 0;
     margin-right: 60px;
     margin-bottom: 20px;
     order: 0;
@@ -296,9 +296,7 @@ span {
     max-height: 600px;
     position: relative;
     display: inline;
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-bottom: 20px;
+    margin: 40px 0 20px 60px;
     order: 1;
 }
 .masif-img {
@@ -310,9 +308,7 @@ span {
     max-height: 600px;
     position: relative;
     display: inline;
-    margin-top: 40px;
-    margin-right: 60px;
-    margin-bottom: 20px;
+    margin: 40px 60px 20px 0;
     order: 0;
 }
 .google-maps {
